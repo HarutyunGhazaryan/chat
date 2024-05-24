@@ -1,0 +1,14 @@
+  .emojiPicker {
+      position: fixed;
+      display: block;
+      bottom: 100px;
+      left: 25%;
+      margin-right: auto;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      background-color: #fff;
+      height: 345px;
+      overflow: hidden;
+      width: auto;
+      overflow: visible;
+  }

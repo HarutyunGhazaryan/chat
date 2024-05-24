@@ -1,0 +1,115 @@
+  .rightContainer {
+      width: 75%;
+      border-left: 1px solid #e4dfdf;
+      margin-left: 25%;
+  }
+
+  .mainEmojiOpen {
+      padding-bottom: 435px;
+  }
+
+  main {
+      padding-bottom: 80px;
+  }
+
+  .header {
+      width: 100%;
+      height: 68.4px;
+      border-bottom: 1px solid #e4dfdf;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      padding-left: 60px;
+  }
+
+  .header p {
+      margin-left: 20px;
+      font-size: 20px;
+  }
+
+  .date {
+      font-size: 14px;
+      width: 60px;
+      height: 30px;
+      margin: 0 auto;
+      border-radius: 40%;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+  }
+
+  .message {
+      margin: 0 35px;
+      padding: 7px 15px;
+      background-color: white;
+      border-radius: 15px;
+      margin-bottom: 15px;
+      display: inline-block;
+      word-wrap: break-word;
+      display: flex;
+      vertical-align: center;
+      width: fit-content;
+  }
+
+  .message .time {
+      font-size: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-top: 10px;
+      margin-left: 10px;
+  }
+
+
+  .footer {
+      position: fixed;
+      left: 25%;
+      bottom: 0;
+      width: 75%;
+      height: 80px;
+      border-left: 1px solid #e4dfdf;
+      border-top: 1px solid #e4dfdf;
+      background-color: white;
+      color: white;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      padding: 0 30px;
+  }
+
+  .attachFile {
+      background-color: white;
+      border: none;
+      width: 50px;
+      height: auto;
+      cursor: pointer;
+  }
+
+  .fileInput {
+      display: none;
+  }
+
+  .inputMessage {
+      border: none;
+      width: 900px;
+      font-size: 16px;
+  }
+
+  .inputMessage:focus {
+      outline: none;
+      height: 30px;
+  }
+
+  .smileIcon {
+      width: 1.75em;
+      height: 1.75em;
+      vertical-align: middle;
+      fill: currentColor;
+      overflow: hidden;
+  }
+
+  .flex-column {
+      background: green;
+  }
